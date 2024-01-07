@@ -7,11 +7,6 @@ config.autoAddCss = false;
 
 const inter = Inter({ subsets: ["latin"] });
 
-// export const metadata: Metadata = {
-// 	title: "Pomodoro Timer",
-// 	description: "Web app for the Pomodoro Technique",
-// };
-
 export default function RootLayout({
 	children,
 }: {
